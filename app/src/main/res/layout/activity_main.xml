@@ -3,91 +3,120 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:columnCount="4"
-    android:useDefaultMargins="true">
+    android:rowCount="7"
+    android:useDefaultMargins="true"
+    android:background="@drawable/ic_display_158391">
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnSpan="4"
-        android:layout_gravity="fill_horizontal" />
+        android:layout_gravity="fill_horizontal"
+        android:layout_rowWeight="4"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnSpan="4"
-        android:layout_gravity="fill_horizontal" />
+        android:layout_gravity="fill_horizontal"
+        android:layout_rowWeight="1"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/key1" />
+        android:text="@string/key1"
+        android:layout_rowWeight="1"
+        android:textSize="40sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/key2" />
+        android:text="@string/key2"
+        android:textSize="40sp"
+        android:layout_rowWeight="1"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/key3" />
+        android:text="@string/key3"
+        android:layout_rowWeight="1"
+        android:textSize="40sp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:src="@drawable/ic_baseline_add_24"
+        android:text="@string/sum"
+        android:layout_rowWeight="1"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/sum" />
+        android:text="@string/key4"
+        android:layout_rowWeight="1"
+        android:textSize="40sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/key4" />
+        android:text="@string/key5"
+        android:layout_rowWeight="1"
+        android:textSize="40sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/key5" />
+        android:text="@string/key6"
+        android:layout_rowWeight="1"
+        android:textSize="40sp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:src="@drawable/ic_baseline_horizontal_rule_24"
+        android:text="@string/subtract"
+        android:layout_rowWeight="1"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/key6" />
+        android:text="@string/key7"
+        android:layout_rowWeight="1"
+        android:textSize="40sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/subtract" />
+        android:text="@string/key8"
+        android:layout_rowWeight="1"
+        android:textSize="40sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/key7" />
+        android:text="@string/key9"
+        android:layout_rowWeight="1"
+        android:textSize="40sp"/>
 
-    <Button
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/key8" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:text="@string/key9" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:text="@string/multiply" />
+        android:src="@drawable/ic_baseline_healing_24"
+        android:text="@string/multiply"
+        android:layout_rowWeight="1"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -95,26 +124,34 @@
         android:layout_columnSpan="2"
         android:layout_columnWeight="1"
         android:layout_gravity="fill_horizontal"
-        android:text="@string/key0" />
+        android:text="@string/key0"
+        android:layout_rowWeight="1"
+        android:textSize="40sp"/>
 
-    <Button
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/keyDot" />
+        android:src="@drawable/ic_baseline_lens_24"
+        android:text="@string/keyDot"
+        android:layout_rowWeight="1"/>
 
-    <Button
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
-        android:text="@string/divide" />
+        android:src="@drawable/ic_baseline_create_24"
+        android:text="@string/divide"
+        android:layout_rowWeight="1"/>
 
-    <Button
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnSpan="4"
         android:layout_columnWeight="1"
         android:layout_gravity="fill_horizontal"
-        android:text="@string/equals" />
+        android:src="@drawable/ic_baseline_density_large_24"
+        android:text="@string/equals"
+        android:layout_rowWeight="1"/>
 
 </GridLayout>

@@ -13,4 +13,8 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="NewButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#609C34</item>
+        <item name="colorControlHighlight">#65DD0D</item>
+    </style>
 </resources>
